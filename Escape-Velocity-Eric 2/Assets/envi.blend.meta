@@ -1,0 +1,617 @@
+fileFormatVersion: 2
+guid: 1ef01021ea57d0445ac12a9256ba3ec9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: cloud 1.000
+    100002: cloud 1.001
+    100004: cloud 1.002
+    100006: cloud 1.003
+    100008: cloud 1.004
+    100010: cloud 2.000
+    100012: cloud 2.001
+    100014: cloud 2.002
+    100016: cloud 2.003
+    100018: cloud 2.004
+    100020: cloud 3.000
+    100022: cloud 3.001
+    100024: cloud 3.002
+    100026: cloud 3.003
+    100028: cloud 3.004
+    100030: dead tree with snow.001
+    100032: dead tree withotu snow.001
+    100034: //RootNode
+    100036: grass dead.001
+    100038: grass green.001
+    100040: grass red.001
+    100042: grass yellow ish.001
+    100044: Icosphere.000
+    100046: Icosphere.039
+    100048: Landscape
+    100050: Landscape.001
+    100052: Landscape.002
+    100054: Landscape.003
+    100056: Landscape.004
+    100058: Landscape.005
+    100060: Landscape.006
+    100062: Landscape.007
+    100064: Landscape.008
+    100066: Landscape.009
+    100068: mushroom 1.000
+    100070: mushroom 1.001
+    100072: mushroom 2.000
+    100074: mushroom 2.001
+    100076: normal tree dry .000
+    100078: normal tree dry .001
+    100080: normal tree dry .002
+    100082: normal tree dry .003
+    100084: normal tree dry .004
+    100086: normal tree dry .005
+    100088: normal tree dry .006
+    100090: normal tree dry .007
+    100092: normal tree green.000
+    100094: normal tree green.001
+    100096: normal tree green.002
+    100098: normal tree green.003
+    100100: normal tree green.004
+    100102: normal tree green.005
+    100104: normal tree green.006
+    100106: normal tree green.007
+    100108: normal tree green.008
+    100110: normal tree green.009
+    100112: normal yellow ish.000
+    100114: normal yellow ish.001
+    100116: normal yellow ish.002
+    100118: normal yellow ish.003
+    100120: normal yellow ish.004
+    100122: normal yellow ish.005
+    100124: normal yellow ish.006
+    100126: rcok 3.000
+    100128: rcok 3.001
+    100130: rcok 3.002
+    100132: rcok 3.003
+    100134: rcok 3.004
+    100136: rcok 3.005
+    100138: rock 1 snow.001
+    100140: rock 1.000
+    100142: rock 1.001
+    100144: rock 1.002
+    100146: rock 1.003
+    100148: rock 2 snow.001
+    100150: rock 2.000
+    100152: rock 2.001
+    100154: rock 2.002
+    100156: rock 2.003
+    100158: rock 2.004
+    100160: rock 2.005
+    100162: rock 2.006
+    100164: rock 2.007
+    100166: rock 2.008
+    100168: rock 2.009
+    100170: rock 2.010
+    100172: rock 2.011
+    100174: rock 2.012
+    100176: rock 2.013
+    100178: rock 2.014
+    100180: rock 2.015
+    100182: rock 2.016
+    100184: rock 2.017
+    100186: rock 3 snow.001
+    100188: cloud 1.005
+    100190: cloud 1.006
+    100192: cloud 1.007
+    100194: cloud 1.008
+    100196: cloud 1.009
+    100198: cloud 1.010
+    100200: cloud 1.011
+    100202: cloud 1.012
+    100204: cloud 1.013
+    100206: cloud 1.014
+    100208: cloud 1.015
+    100210: cloud 1.016
+    100212: cloud 1.017
+    100214: cloud 1.018
+    100216: cloud 2.005
+    100218: cloud 2.006
+    100220: cloud 2.007
+    100222: cloud 2.008
+    100224: cloud 2.009
+    100226: cloud 2.010
+    100228: cloud 2.011
+    100230: cloud 2.012
+    100232: cloud 3.005
+    100234: cloud 3.006
+    400000: cloud 1.000
+    400002: cloud 1.001
+    400004: cloud 1.002
+    400006: cloud 1.003
+    400008: cloud 1.004
+    400010: cloud 2.000
+    400012: cloud 2.001
+    400014: cloud 2.002
+    400016: cloud 2.003
+    400018: cloud 2.004
+    400020: cloud 3.000
+    400022: cloud 3.001
+    400024: cloud 3.002
+    400026: cloud 3.003
+    400028: cloud 3.004
+    400030: dead tree with snow.001
+    400032: dead tree withotu snow.001
+    400034: //RootNode
+    400036: grass dead.001
+    400038: grass green.001
+    400040: grass red.001
+    400042: grass yellow ish.001
+    400044: Icosphere.000
+    400046: Icosphere.039
+    400048: Landscape
+    400050: Landscape.001
+    400052: Landscape.002
+    400054: Landscape.003
+    400056: Landscape.004
+    400058: Landscape.005
+    400060: Landscape.006
+    400062: Landscape.007
+    400064: Landscape.008
+    400066: Landscape.009
+    400068: mushroom 1.000
+    400070: mushroom 1.001
+    400072: mushroom 2.000
+    400074: mushroom 2.001
+    400076: normal tree dry .000
+    400078: normal tree dry .001
+    400080: normal tree dry .002
+    400082: normal tree dry .003
+    400084: normal tree dry .004
+    400086: normal tree dry .005
+    400088: normal tree dry .006
+    400090: normal tree dry .007
+    400092: normal tree green.000
+    400094: normal tree green.001
+    400096: normal tree green.002
+    400098: normal tree green.003
+    400100: normal tree green.004
+    400102: normal tree green.005
+    400104: normal tree green.006
+    400106: normal tree green.007
+    400108: normal tree green.008
+    400110: normal tree green.009
+    400112: normal yellow ish.000
+    400114: normal yellow ish.001
+    400116: normal yellow ish.002
+    400118: normal yellow ish.003
+    400120: normal yellow ish.004
+    400122: normal yellow ish.005
+    400124: normal yellow ish.006
+    400126: rcok 3.000
+    400128: rcok 3.001
+    400130: rcok 3.002
+    400132: rcok 3.003
+    400134: rcok 3.004
+    400136: rcok 3.005
+    400138: rock 1 snow.001
+    400140: rock 1.000
+    400142: rock 1.001
+    400144: rock 1.002
+    400146: rock 1.003
+    400148: rock 2 snow.001
+    400150: rock 2.000
+    400152: rock 2.001
+    400154: rock 2.002
+    400156: rock 2.003
+    400158: rock 2.004
+    400160: rock 2.005
+    400162: rock 2.006
+    400164: rock 2.007
+    400166: rock 2.008
+    400168: rock 2.009
+    400170: rock 2.010
+    400172: rock 2.011
+    400174: rock 2.012
+    400176: rock 2.013
+    400178: rock 2.014
+    400180: rock 2.015
+    400182: rock 2.016
+    400184: rock 2.017
+    400186: rock 3 snow.001
+    400188: cloud 1.005
+    400190: cloud 1.006
+    400192: cloud 1.007
+    400194: cloud 1.008
+    400196: cloud 1.009
+    400198: cloud 1.010
+    400200: cloud 1.011
+    400202: cloud 1.012
+    400204: cloud 1.013
+    400206: cloud 1.014
+    400208: cloud 1.015
+    400210: cloud 1.016
+    400212: cloud 1.017
+    400214: cloud 1.018
+    400216: cloud 2.005
+    400218: cloud 2.006
+    400220: cloud 2.007
+    400222: cloud 2.008
+    400224: cloud 2.009
+    400226: cloud 2.010
+    400228: cloud 2.011
+    400230: cloud 2.012
+    400232: cloud 3.005
+    400234: cloud 3.006
+    2100000: snow.006
+    2100002: trunk.006
+    2100004: dry grass.002
+    2100006: grass green.002
+    2100008: red ish grass.002
+    2100010: yellow ish grass.002
+    2100012: clouds.001
+    2100014: Material.136
+    2100016: Material.137
+    2100018: mushroom.002
+    2100020: Material.135
+    2100022: normal tree yellow.027
+    2100024: Material.134
+    2100026: Normal tree green..002
+    2100028: normla tree yellow ish.102
+    2100030: rock.002
+    2100032: clouds.002
+    2100034: clouds
+    2100036: Material.132
+    2100038: Material.133
+    2300000: cloud 1.000
+    2300002: cloud 1.001
+    2300004: cloud 1.002
+    2300006: cloud 1.003
+    2300008: cloud 1.004
+    2300010: cloud 2.000
+    2300012: cloud 2.001
+    2300014: cloud 2.002
+    2300016: cloud 2.003
+    2300018: cloud 2.004
+    2300020: cloud 3.000
+    2300022: cloud 3.001
+    2300024: cloud 3.002
+    2300026: cloud 3.003
+    2300028: cloud 3.004
+    2300030: dead tree with snow.001
+    2300032: dead tree withotu snow.001
+    2300034: grass dead.001
+    2300036: grass green.001
+    2300038: grass red.001
+    2300040: grass yellow ish.001
+    2300042: Icosphere.000
+    2300044: Icosphere.039
+    2300046: Landscape
+    2300048: Landscape.001
+    2300050: Landscape.002
+    2300052: Landscape.003
+    2300054: Landscape.004
+    2300056: Landscape.005
+    2300058: Landscape.006
+    2300060: Landscape.007
+    2300062: Landscape.008
+    2300064: Landscape.009
+    2300066: mushroom 1.000
+    2300068: mushroom 1.001
+    2300070: mushroom 2.000
+    2300072: mushroom 2.001
+    2300074: normal tree dry .000
+    2300076: normal tree dry .001
+    2300078: normal tree dry .002
+    2300080: normal tree dry .003
+    2300082: normal tree dry .004
+    2300084: normal tree dry .005
+    2300086: normal tree dry .006
+    2300088: normal tree dry .007
+    2300090: normal tree green.000
+    2300092: normal tree green.001
+    2300094: normal tree green.002
+    2300096: normal tree green.003
+    2300098: normal tree green.004
+    2300100: normal tree green.005
+    2300102: normal tree green.006
+    2300104: normal tree green.007
+    2300106: normal tree green.008
+    2300108: normal tree green.009
+    2300110: normal yellow ish.000
+    2300112: normal yellow ish.001
+    2300114: normal yellow ish.002
+    2300116: normal yellow ish.003
+    2300118: normal yellow ish.004
+    2300120: normal yellow ish.005
+    2300122: normal yellow ish.006
+    2300124: rcok 3.000
+    2300126: rcok 3.001
+    2300128: rcok 3.002
+    2300130: rcok 3.003
+    2300132: rcok 3.004
+    2300134: rcok 3.005
+    2300136: rock 1 snow.001
+    2300138: rock 1.000
+    2300140: rock 1.001
+    2300142: rock 1.002
+    2300144: rock 1.003
+    2300146: rock 2 snow.001
+    2300148: rock 2.000
+    2300150: rock 2.001
+    2300152: rock 2.002
+    2300154: rock 2.003
+    2300156: rock 2.004
+    2300158: rock 2.005
+    2300160: rock 2.006
+    2300162: rock 2.007
+    2300164: rock 2.008
+    2300166: rock 2.009
+    2300168: rock 2.010
+    2300170: rock 2.011
+    2300172: rock 2.012
+    2300174: rock 2.013
+    2300176: rock 2.014
+    2300178: rock 2.015
+    2300180: rock 2.016
+    2300182: rock 2.017
+    2300184: rock 3 snow.001
+    2300186: cloud 1.005
+    2300188: cloud 1.006
+    2300190: cloud 1.007
+    2300192: cloud 1.008
+    2300194: cloud 1.009
+    2300196: cloud 1.010
+    2300198: cloud 1.011
+    2300200: cloud 1.012
+    2300202: cloud 1.013
+    2300204: cloud 1.014
+    2300206: cloud 1.015
+    2300208: cloud 1.016
+    2300210: cloud 1.017
+    2300212: cloud 1.018
+    2300214: cloud 2.005
+    2300216: cloud 2.006
+    2300218: cloud 2.007
+    2300220: cloud 2.008
+    2300222: cloud 2.009
+    2300224: cloud 2.010
+    2300226: cloud 2.011
+    2300228: cloud 2.012
+    2300230: cloud 3.005
+    2300232: cloud 3.006
+    3300000: cloud 1.000
+    3300002: cloud 1.001
+    3300004: cloud 1.002
+    3300006: cloud 1.003
+    3300008: cloud 1.004
+    3300010: cloud 2.000
+    3300012: cloud 2.001
+    3300014: cloud 2.002
+    3300016: cloud 2.003
+    3300018: cloud 2.004
+    3300020: cloud 3.000
+    3300022: cloud 3.001
+    3300024: cloud 3.002
+    3300026: cloud 3.003
+    3300028: cloud 3.004
+    3300030: dead tree with snow.001
+    3300032: dead tree withotu snow.001
+    3300034: grass dead.001
+    3300036: grass green.001
+    3300038: grass red.001
+    3300040: grass yellow ish.001
+    3300042: Icosphere.000
+    3300044: Icosphere.039
+    3300046: Landscape
+    3300048: Landscape.001
+    3300050: Landscape.002
+    3300052: Landscape.003
+    3300054: Landscape.004
+    3300056: Landscape.005
+    3300058: Landscape.006
+    3300060: Landscape.007
+    3300062: Landscape.008
+    3300064: Landscape.009
+    3300066: mushroom 1.000
+    3300068: mushroom 1.001
+    3300070: mushroom 2.000
+    3300072: mushroom 2.001
+    3300074: normal tree dry .000
+    3300076: normal tree dry .001
+    3300078: normal tree dry .002
+    3300080: normal tree dry .003
+    3300082: normal tree dry .004
+    3300084: normal tree dry .005
+    3300086: normal tree dry .006
+    3300088: normal tree dry .007
+    3300090: normal tree green.000
+    3300092: normal tree green.001
+    3300094: normal tree green.002
+    3300096: normal tree green.003
+    3300098: normal tree green.004
+    3300100: normal tree green.005
+    3300102: normal tree green.006
+    3300104: normal tree green.007
+    3300106: normal tree green.008
+    3300108: normal tree green.009
+    3300110: normal yellow ish.000
+    3300112: normal yellow ish.001
+    3300114: normal yellow ish.002
+    3300116: normal yellow ish.003
+    3300118: normal yellow ish.004
+    3300120: normal yellow ish.005
+    3300122: normal yellow ish.006
+    3300124: rcok 3.000
+    3300126: rcok 3.001
+    3300128: rcok 3.002
+    3300130: rcok 3.003
+    3300132: rcok 3.004
+    3300134: rcok 3.005
+    3300136: rock 1 snow.001
+    3300138: rock 1.000
+    3300140: rock 1.001
+    3300142: rock 1.002
+    3300144: rock 1.003
+    3300146: rock 2 snow.001
+    3300148: rock 2.000
+    3300150: rock 2.001
+    3300152: rock 2.002
+    3300154: rock 2.003
+    3300156: rock 2.004
+    3300158: rock 2.005
+    3300160: rock 2.006
+    3300162: rock 2.007
+    3300164: rock 2.008
+    3300166: rock 2.009
+    3300168: rock 2.010
+    3300170: rock 2.011
+    3300172: rock 2.012
+    3300174: rock 2.013
+    3300176: rock 2.014
+    3300178: rock 2.015
+    3300180: rock 2.016
+    3300182: rock 2.017
+    3300184: rock 3 snow.001
+    3300186: cloud 1.005
+    3300188: cloud 1.006
+    3300190: cloud 1.007
+    3300192: cloud 1.008
+    3300194: cloud 1.009
+    3300196: cloud 1.010
+    3300198: cloud 1.011
+    3300200: cloud 1.012
+    3300202: cloud 1.013
+    3300204: cloud 1.014
+    3300206: cloud 1.015
+    3300208: cloud 1.016
+    3300210: cloud 1.017
+    3300212: cloud 1.018
+    3300214: cloud 2.005
+    3300216: cloud 2.006
+    3300218: cloud 2.007
+    3300220: cloud 2.008
+    3300222: cloud 2.009
+    3300224: cloud 2.010
+    3300226: cloud 2.011
+    3300228: cloud 2.012
+    3300230: cloud 3.005
+    3300232: cloud 3.006
+    4300000: dead tree with snow.001
+    4300002: dead tree withotu snow.001
+    4300004: grass dead.001
+    4300006: grass green.001
+    4300008: grass red.001
+    4300010: grass yellow ish.001
+    4300012: Icosphere.000
+    4300014: Landscape.001
+    4300016: mushroom 1.001
+    4300018: mushroom 2.001
+    4300020: normal tree dry .001
+    4300022: normal tree green.001
+    4300024: normal yellow ish.001
+    4300026: rcok 3.001
+    4300028: rock 1.001
+    4300030: rock 1 snow.001
+    4300032: rock 2.001
+    4300034: rock 2 snow.001
+    4300036: rock 3 snow.001
+    4300038: cloud 1.000
+    4300040: cloud 1.001
+    4300042: cloud 1.002
+    4300044: cloud 1.003
+    4300046: cloud 1.004
+    4300048: cloud 2.000
+    4300050: cloud 2.001
+    4300052: cloud 2.002
+    4300054: cloud 2.003
+    4300056: cloud 2.004
+    4300058: cloud 3.000
+    4300060: cloud 3.001
+    4300062: cloud 3.002
+    4300064: cloud 3.003
+    4300066: cloud 3.004
+    4300068: Icosphere.039
+    4300070: Landscape
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
