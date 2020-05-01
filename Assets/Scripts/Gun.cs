@@ -11,10 +11,18 @@ public class Gun : MonoBehaviour
 
     private float nextTimeToFire = 0f;
 
+    private AudioSource gunAudio;
+
+    void Start()
+    {
+        gunAudio = GetComponent<AudioSource>();
+    }
+
     void Update()
     {
         if(Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
+            gunAudio.Play();
             nextTimeToFire = Time.time + 1f / fireRate;
             Shoot();
         }

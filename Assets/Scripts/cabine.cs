@@ -11,10 +11,10 @@ public class cabine : MonoBehaviour {
     [SerializeField] int range = 100;
     [SerializeField] ParticleSystem GunFire;
     [SerializeField] GameObject HitEffect;
-    [SerializeField] int FOVnormal = 30;
+    [SerializeField] int FOVnormal = 60;
     [SerializeField] float normalSensitivity = 2.0f;
     [SerializeField] float zoomingSensitivity = 1.0f;
-    [SerializeField] int FOVzooming = 15;
+    [SerializeField] int FOVzooming = 30;
     
     Boolean aiming = false;
     Boolean reloading = false;
@@ -22,9 +22,11 @@ public class cabine : MonoBehaviour {
     int maximumAmmo = 31;
     int currentAmmo = 31;
     float lastShootTime;
+    private AudioSource gunAudio;
+
     private void Start()
     {
-        
+        gunAudio = GetComponent<AudioSource>();
         controller = FindObjectOfType<RigidbodyFirstPersonController>();
     }
 
@@ -32,6 +34,7 @@ public class cabine : MonoBehaviour {
     void Update () {
         if (Input.GetButtonDown("Fire1"))
         {
+            gunAudio.Play();
             Shoot();
         }
         zooming();
@@ -65,7 +68,7 @@ public class cabine : MonoBehaviour {
             if (Physics.Raycast(MainCamera.transform.position, MainCamera.transform.forward, out hit, range))
             {
                 GameObject hitEffect = Instantiate(HitEffect, hit.point, Quaternion.LookRotation(hit.normal));
-                Destroy(hitEffect, 0.05f);
+                Destroy(hitEffect, 3f);
                 if (hit.transform.GetComponent<normalEnemyHP>() == null) return;
                 normalEnemyHP HP = hit.transform.GetComponent<normalEnemyHP>();
                 HP.Damage(damage);

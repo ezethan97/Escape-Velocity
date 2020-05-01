@@ -41,6 +41,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        private float jetForce; // force of jetpack after jump
+        private float jetWait;  // interval between jetpack usage
+        private float jetRecovery; // how quickly to recover fuel
+        private float max_fuel;
+        private float current_fuel;
+        private float current_recovery; // how long player has been on ground
+        private bool canJet;
+
 
         // Use this for initialization
         private void Start()
@@ -55,6 +63,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            current_fuel = max_fuel;
         }
 
 
@@ -66,6 +75,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (!m_Jump)
             {
                 m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+            }
+            else
+            {
+                current_recovery = 0f; // player is jumping so stop recovery
             }
 
             if (!m_PreviouslyGrounded && m_CharacterController.isGrounded)
@@ -107,6 +120,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
             m_MoveDir.x = desiredMove.x*speed;
             m_MoveDir.z = desiredMove.z*speed;
+
+            bool jet = Input.GetKey(KeyCode.Space);
+
+            //jetpack section
+            if (m_Jump)
+            {
+                canJet = true;
+            }
+            if (m_CharacterController.isGrounded)
+            {
+                canJet = false;
+            }
 
 
             if (m_CharacterController.isGrounded)

@@ -82,6 +82,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public MovementSettings movementSettings = new MovementSettings();
         public MouseLook mouseLook = new MouseLook();
         public AdvancedSettings advancedSettings = new AdvancedSettings();
+        public bool landed, JumpSound;
 
 
         private Rigidbody m_RigidBody;
@@ -90,6 +91,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private Vector3 m_GroundContactNormal;
         private bool m_Jump, m_PreviouslyGrounded, m_Jumping, m_IsGrounded;
 
+        public bool land
+        {
+            get { return landed; }
+        }
 
         public Vector3 Velocity
         {
@@ -104,6 +109,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public bool Jumping
         {
             get { return m_Jumping; }
+        }
+
+        public bool JumpedSound
+        {
+            get { return JumpSound;  }
         }
 
         public bool Running
@@ -134,6 +144,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (CrossPlatformInputManager.GetButtonDown("Jump") && !m_Jump)
             {
                 m_Jump = true;
+                JumpSound = false;
+                landed = false;
             }
         }
 
@@ -190,6 +202,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
             }
             m_Jump = false;
+            JumpSound = false;
         }
 
 

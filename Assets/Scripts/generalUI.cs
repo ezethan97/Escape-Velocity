@@ -7,7 +7,6 @@ using UnityEngine.UI;
 public class generalUI : MonoBehaviour
 {
     [SerializeField] Text gunfire;
-    [SerializeField] Canvas Pause;
     private float timeCounter ;
     private float displayTimeGun;
     private float displayTimeLife;
@@ -16,7 +15,6 @@ public class generalUI : MonoBehaviour
     void Start()
     {
         gunfire.enabled = false;
-        Pause.enabled = false;
         timeCounter = 0;
         displayTimeGun = 3.0f;
         displayTimeLife = 3.0f;
@@ -36,13 +34,6 @@ public class generalUI : MonoBehaviour
             gunfire.enabled = false;
             displayTimeGun = 3.0f;
         }
-        if (Input.GetKeyDown("Escape"))
-        {
-            Pause.enabled = true;
-            Time.timeScale = 0;
-            Cursor.lockState = CursorLockMode.None;
-            Cursor.visible = true;
-        }
     }
 
 
@@ -54,11 +45,5 @@ public class generalUI : MonoBehaviour
     public void displayGun()
     {
         gunfire.enabled = true;
-
-    }
-    public void continueInGame()
-    {
-        Time.timeScale = 1;
-        Pause.enabled = false;
     }
 }
